@@ -25,18 +25,14 @@ header strong{
 
 header{
     color: white;
-    height: 600px;
+    height: 650px;
     text-align: center;
-    background-image: url(image/banner-palais.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url(image/banner-palais.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     text-decoration: none;
-}
-
-header:hover{
-    background-image: url(image/presidence_19.webp);
 }
 
 .titre2{
@@ -128,7 +124,7 @@ h1{
 
 h1 span{
     font-size: 30px;
-    color: rgb(82, 78, 78);
+    color: rgb(34, 33, 33);
     text-transform: none;
 }
 
