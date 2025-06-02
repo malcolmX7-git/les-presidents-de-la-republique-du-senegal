@@ -15,7 +15,7 @@ body{
 }
 
 .section{
-    margin: 70px;  
+    margin: 71px;  
 }
 
 header strong{
@@ -152,7 +152,6 @@ img{
 
 img:hover{
     width: 25%;
-    
 }
 
 .float-right{
