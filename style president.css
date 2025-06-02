@@ -6,7 +6,7 @@
 
 body{
     font-size: 22px;
-    background-color: rgb(235, 236, 238);
+    background-color: rgb(243, 240, 240);
     text-align: justify;
     line-height: 1.5;
     font-weight: 500;
@@ -25,9 +25,9 @@ header strong{
 
 header{
     color: white;
-    height: 650px;
+    height: 680px;
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url(image/banner-palais.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.1)), url(image/banner-palais.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -44,11 +44,12 @@ header{
     border-radius: 15px;
     margin: 50px 100px;
     padding-left: 10px;
-    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.952);
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.952);
+    
 }
 
 .description:hover{
-    background-color: rgb(255, 245, 245);
+    background-color: rgb(255, 206, 206, 0.581);
     position: relative;
     top: -20px;
     right: 20px;
@@ -61,11 +62,11 @@ header{
     border-radius: 15px;
     margin: 50px 100px;
     padding-left: 10px;
-    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.952);
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.952);
 }
 
 .descriptions:hover{
-    background-color: rgb(255, 245, 245);
+    background-color: rgba(255, 206, 206, 0.581);
     position: relative;
     top: -20px;
     left: 20px;
@@ -146,7 +147,12 @@ h3{
 img{
     float: left;
     margin: 5px;
-    border-radius: 15px;
+    border-radius: 25px;
+}
+
+img:hover{
+    width: 25%;
+    
 }
 
 .float-right{
@@ -159,7 +165,6 @@ img{
     margin: 15px;
     display: flex;
     justify-content: flex-end;
-
 }
 
 .retour{
