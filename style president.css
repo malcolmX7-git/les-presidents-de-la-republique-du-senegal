@@ -1,0 +1,203 @@
+/*inserez l'image du palais*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 22px;
+    background-color: rgb(235, 236, 238);
+    text-align: justify;
+    line-height: 1.5;
+    font-weight: 500;
+    margin: 0;
+    font-family: Cambria, serif;
+}
+
+.section{
+    margin: 70px;  
+}
+
+header strong{
+    text-decoration: underline;
+    font-size: larger;  
+}
+
+header{
+    color: white;
+    height: 600px;
+    text-align: center;
+    background-image: url(image/banner-palais.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-decoration: none;
+}
+
+header:hover{
+    background-image: url(image/presidence_19.webp);
+}
+
+.titre2{
+    text-transform: capitalize;
+}
+
+.description{
+    background-color: rgb(252, 233, 233);
+    border-radius: 15px;
+    margin: 50px 100px;
+    padding-left: 10px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.952);
+}
+
+.description:hover{
+    background-color: rgb(255, 245, 245);
+    position: relative;
+    top: -20px;
+    right: 20px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.952);
+    margin-top: 20px;
+}
+
+.descriptions{
+    background-color: rgb(252, 233, 233);
+    border-radius: 15px;
+    margin: 50px 100px;
+    padding-left: 10px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.952);
+}
+
+.descriptions:hover{
+    background-color: rgb(255, 245, 245);
+    position: relative;
+    top: -20px;
+    left: 20px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.952);
+    margin-top: 20px;
+}
+
+.dioufa{
+    text-align: right;
+}
+
+.playfair-display{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+nav{
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+strong.titre{
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    display: inline-block;
+}
+
+nav a{
+    font-size: 27px;
+    line-height: 1.8;
+    color: black;
+    padding: 6px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+
+nav a:hover{
+    color: rgb(255, 255, 255);
+    padding: 6px 30px;
+}
+
+p{
+    margin-top: 5px;
+    margin: 0px 10px 10px;
+    padding-bottom: 30px;
+}
+
+h1{
+    margin: 0;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+h1 span{
+    font-size: 30px;
+    color: rgb(82, 78, 78);
+    text-transform: none;
+}
+
+h2,
+h4{
+    margin: 5px 5px 0;
+}
+
+h3{
+    margin: 40px 5px 0;
+}
+
+.conclusion{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+img{
+    float: left;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.float-right{
+    float: right;
+}
+
+
+.div-retour{
+    text-align: right;
+    margin: 15px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.retour{
+    border: none;
+    width: 40px;
+    height: 30px;
+}
+
+.retour:hover{
+    color: rgb(184, 0, 31);
+    background-color: rgb(247, 247, 255);
+}
+
+div a{
+    margin-top: 10px;
+    /* background-color: rgb(197, 195, 196); */
+    padding: 7px;
+    color: black;
+    border: black solid 1px;
+    border-radius: 10px;
+}
+
+footer{
+    padding: 40px 10px;
+    background-color: rgb(90, 90, 90);
+    color: antiquewhite;
+    margin-top: 10px;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: black;
+    font-size: 25px;
+}
