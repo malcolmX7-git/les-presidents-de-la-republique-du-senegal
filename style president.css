@@ -17,7 +17,7 @@ body{
                             /* DEBUT DE LA PARTIE HEADER NOTAMENT AVEC LE BACKGROUND IMAGE ET LA NAVIGATION POUR LES PRESIDENTS */
 header{
     color: white;
-    height: 680px;
+    height: 700px;
     text-align: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(image/banner-palais.jpeg);
     background-repeat: no-repeat;
