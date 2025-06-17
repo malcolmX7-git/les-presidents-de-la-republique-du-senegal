@@ -1,4 +1,3 @@
-/*inserez l'image du palais*/
 
 *{
     box-sizing: border-box;
@@ -6,28 +5,21 @@
 
 body{
     font-size: 22px;
-    background-color: rgb(243, 240, 240);
+    background-color: #f0f0f0;
     text-align: justify;
     line-height: 1.5;
     font-weight: 500;
+    color: #222222;
     margin: 0;
     font-family: Cambria, serif;
 }
 
-.section{
-    margin: 71px;  
-}
-
-header strong{
-    text-decoration: underline;
-    font-size: larger;  
-}
-
+                            /* DEBUT DE LA PARTIE HEADER NOTAMENT AVEC LE BACKGROUND IMAGE ET LA NAVIGATION POUR LES PRESIDENTS */
 header{
     color: white;
     height: 680px;
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url(image/banner-palais.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(image/banner-palais.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -35,65 +27,30 @@ header{
     text-decoration: none;
 }
 
+h1{
+    color: #1a1a1a;
+    margin: 0;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
 .titre2{
-    text-transform: capitalize;
-}
-
-.description{
-    background-color: rgb(252, 233, 233);
-    border-radius: 15px;
-    margin: 50px 100px;
-    padding-left: 10px;
-    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.952);
-    
-}
-
-.description:hover{
-    background-color: rgb(255, 206, 206, 0.581);
-    position: relative;
-    top: -20px;
-    right: 20px;
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.952);
-    margin-top: 20px;
-}
-
-.descriptions{
-    background-color: rgb(252, 233, 233);
-    border-radius: 15px;
-    margin: 50px 100px;
-    padding-left: 10px;
-    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.952);
-}
-
-.descriptions:hover{
-    background-color: rgba(255, 206, 206, 0.581);
-    position: relative;
-    top: -20px;
-    left: 20px;
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.952);
-    margin-top: 20px;
-}
-
-.dioufa{
-    text-align: right;
-}
-
-.playfair-display{
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
+    color: #1a1a1adc;
+    font-size: 30px;
+    text-transform: none;
 }
 
 nav{
-    margin-top: 10px;
-    margin-bottom: 70px;
+    margin-top: 100px;
+    margin-bottom: px;
 }
 
-strong.titre{
-    margin-bottom: 15px;
+.titre-nav{
+    font-size: 30px;
+    text-decoration: underline;
     text-transform: capitalize;
-    display: inline-block;
+    color: rgb(255, 255, 255);
 }
 
 nav a{
@@ -105,28 +62,19 @@ nav a{
     margin-bottom: 10px;
 }
 
-
-nav a:hover{
-    color: rgb(255, 255, 255);
-    padding: 6px 30px;
+nav a:hover {
+    color: white;
+    background-color: #0000004f;
+    padding: 6px 15px;
+    border-radius: 5px;
 }
+                            /* FIN DE LA PARTIE HEADER NOTAMENT AVEC LE BACKGROUND IMAGE ET LA NAVIGATION POUR LES PRESIDENTS */
 
+                            /* DEBUT DE LA PARTIE BIOGRAPHIE DES PRESIDENTS AVEC LES TEXTES ET LES IMAGES*/
 p{
     margin-top: 5px;
     margin: 0px 10px 10px;
     padding-bottom: 30px;
-}
-
-h1{
-    margin: 0;
-    padding-top: 10px;
-    text-transform: uppercase;
-}
-
-h1 span{
-    font-size: 30px;
-    color: rgb(34, 33, 33);
-    text-transform: none;
 }
 
 h2,
@@ -138,26 +86,64 @@ h3{
     margin: 40px 5px 0;
 }
 
-.conclusion{
-    text-align: center;
-    text-decoration: underline;
-    text-transform: capitalize;
-}
-
-img{
+img {
+    transition: transform 0.5s ease-in-out;
     float: left;
-    margin: 5px;
-    border-radius: 25px;
+    margin: 10px 25px;
+    border-radius: 15px;
 }
 
-img:hover{
-    width: 25%;
+img:hover {
+    transform: scale(1.17);
 }
 
 .float-right{
     float: right;
 }
 
+.description .left, .description .right{
+    border-radius: 15px;
+    margin: 50px 50px;
+    padding-left: 10px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.952);
+    background-color: #d0e6f7;  
+    color: #000000;            
+}
+
+.left:hover{
+    position: relative;
+    top: -20px;
+    right: 20px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.952);
+    margin-top: 20px;
+    background-color: #a0c8e0;
+    transition: background-color 0.9s ease;
+}
+
+.right:hover{
+    position: relative;
+    top: -20px;
+    left: 20px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.952);
+    margin-top: 20px;
+    background-color: #a0c8e0;
+    transition: background-color 0.9s ease;
+}
+
+.dioufa{
+    text-align: right;
+}
+                                /* FIN DE LA PARTIE BIOGRAPHIE DES PRESIDENTS AVEC LES TEXTES ET LES IMAGES */
+                                /* DEBUT DE LA CONCLUSION ACCOMPAGNé PAR LA TOUCHE DE RETOUR EN HAUT DE LA PAGE */
+.conclusion{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
 
 .div-retour{
     text-align: right;
@@ -172,23 +158,24 @@ img:hover{
     height: 30px;
 }
 
-.retour:hover{
-    color: rgb(184, 0, 31);
-    background-color: rgb(247, 247, 255);
+.retour:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s;
 }
 
 div a{
     margin-top: 10px;
-    /* background-color: rgb(197, 195, 196); */
     padding: 7px;
     color: black;
     border: black solid 1px;
     border-radius: 10px;
 }
+                                /* FIN DE LA CONCLUSION ACCOMPAGNé PAR LA TOUCHE DE RETOUR EN HAUT DE LA PAGE */
 
+/* DEBUT DU FOOTER DE LA PAGE */
 footer{
     padding: 40px 10px;
-    background-color: rgb(90, 90, 90);
+    background-color: rgb(0, 24, 59);
     color: antiquewhite;
     margin-top: 10px;
 }
@@ -197,7 +184,32 @@ footer a{
     color: white;
 }
 
-footer a:hover{
-    color: black;
+footer a:hover {
+    color: #ffcc00;
     font-size: 25px;
 }
+/* FIN DU FOOTER DE LA PAGE */
+
+/* DEBUT DU @MEDIA POUR LA RESPONSIVE MOBILE */
+@media (max-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+
+    .description, .descriptions {
+        margin: 20px;
+        padding: 10px;
+    }
+
+    nav a {
+        font-size: 20px;
+    }
+
+    img {
+        width: 60%;
+        /* float: none; */
+        /* display: block; */
+        margin: auto;
+    }
+}
+/* FIN DU @MEDIA POUR LA RESPONSIVE MOBILE */
