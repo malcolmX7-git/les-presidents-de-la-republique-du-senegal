@@ -5,11 +5,11 @@
 
 body{
     font-size: 22px;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     text-align: justify;
     line-height: 1.5;
     font-weight: 500;
-    color: #222222;
+    color: #414141;
     margin: 0;
     font-family: Cambria, serif;
 }
@@ -69,7 +69,6 @@ nav a:hover {
     border-radius: 5px;
 }
                             /* FIN DE LA PARTIE HEADER NOTAMENT AVEC LE BACKGROUND IMAGE ET LA NAVIGATION POUR LES PRESIDENTS */
-
                             /* DEBUT DE LA PARTIE BIOGRAPHIE DES PRESIDENTS AVEC LES TEXTES ET LES IMAGES*/
 p{
     margin-top: 5px;
@@ -80,10 +79,12 @@ p{
 h2,
 h4{
     margin: 5px 5px 0;
+    color: rgb(80, 80, 192);
 }
 
 h3{
     margin: 40px 5px 0;
+    color: rgb(38, 38, 134);
 }
 
 img {
@@ -105,12 +106,23 @@ img:hover {
     border-radius: 15px;
     margin: 50px 50px;
     padding-left: 10px;
-    box-shadow: 0 0 7px rgba(0, 0, 0, 0.952);
-    background-color: #d0e6f7;  
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.397);
+    background-color:rgb(255, 255, 255);  
     color: #000000;            
 }
 
-.left:hover{
+.description .left:hover, .description .right:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.952);
+    margin-top: 20px;
+    background-color: #ffffff;
+    transform: scale(1.03);
+    /* position: relative;
+    top: -20px;
+    right: 20px; */
+    transition:  0.8s;
+}
+
+/* .left:hover{
     position: relative;
     top: -20px;
     right: 20px;
@@ -132,7 +144,7 @@ img:hover {
     margin-top: 20px;
     background-color: #a0c8e0;
     transition: background-color 0.9s ease;
-}
+} */
 
 .dioufa{
     text-align: right;
