@@ -110,13 +110,13 @@ img:hover {
     border-radius: 15px;
     margin: 50px 50px;
     padding-left: 10px;
-    box-shadow: 0 0 7px rgba(0, 0, 0, 0.397);
-    background-color:rgb(253, 253, 253);  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.397);
+    background-color:rgb(255, 255, 255);  
     color: #000000;            
 }
 
 .description .left:hover, .description .right:hover{
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.952);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.752);
     margin-top: 20px;
     background-color:rgb(252, 252, 252);
     transform: scale(1.035);
