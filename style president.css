@@ -87,6 +87,10 @@ h3{
     color: rgb(38, 38, 134);
 }
 
+.bold{
+    color: black;
+}
+
 img {
     transition: transform 0.5s ease-in-out;
     float: left;
@@ -107,19 +111,19 @@ img:hover {
     margin: 50px 50px;
     padding-left: 10px;
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.397);
-    background-color:rgb(255, 255, 255);  
+    background-color:rgb(253, 253, 253);  
     color: #000000;            
 }
 
 .description .left:hover, .description .right:hover{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.952);
     margin-top: 20px;
-    background-color: #ffffff;
-    transform: scale(1.03);
+    background-color:rgb(252, 252, 252);
+    transform: scale(1.035);
     /* position: relative;
     top: -20px;
     right: 20px; */
-    transition:  0.8s;
+    transition:  1s;
 }
 
 /* .left:hover{
@@ -182,7 +186,7 @@ div a{
     border: black solid 1px;
     border-radius: 10px;
 }
-                                /* FIN DE LA CONCLUSION ACCOMPAGNé PAR LA TOUCHE DE RETOUR EN HAUT DE LA PAGE */
+/*==================== FIN DE LA CONCLUSION ACCOMPAGNé PAR LA TOUCHE DE RETOUR EN HAUT DE LA PAGE ====================*/
 
 /* DEBUT DU FOOTER DE LA PAGE */
 footer{
